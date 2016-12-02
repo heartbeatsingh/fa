@@ -1,0 +1,117 @@
+/*Proxima Light*/
+
+@font-face {
+    font-family: 'proxima_novalight';
+    src: url('../fonts/proximanova-light.woff2') format('woff2'),
+         url('../fonts/proximanova-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.news-content h3{font-family: 'proxima_novalight';}
+
+/*Proxima Semibold*/
+
+@font-face {
+    font-family: 'proxima_nova_ltsemibold';
+    src: url('../fonts/mark_simonson_-_proxima_nova_semibold.woff2') format('woff2'),
+         url('../fonts/mark_simonson_-_proxima_nova_semibold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.date-time span, .table-bordered th, .table-bordered td strong{font-family: 'proxima_nova_ltsemibold';}
+
+/*Adobe Caslon Pro*/
+
+@font-face {
+	font-family: 'Adobe Caslon Pro';
+	src: url('../fonts/ACaslonPro-Regular.eot');
+	src: url('../fonts/ACaslonPro-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ACaslonPro-Regular.woff') format('woff'),
+		url('../fonts/ACaslonPro-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.news-content h1, .grad-student h2.heading, .dyn-seminer h4, .auther-name h2{font-family: 'Adobe Caslon Pro';}
+
+
+body{background-color:#fff; margin:0; color:#525151; font-size:15px; font-family: 'proxima_novalight';}
+
+/*Header*/
+
+#header{background-color:#fff; padding:15px 0;} 
+img{max-width:100%;}
+
+/* Header Right */
+
+.header-right{padding-top:25px;}
+.tewanange{float:left; width:70%; text-align:right; border-right:2px solid #e3e3e3; padding:5px 5% 5px 0;} 
+.date-time{float:right; width:30%;  text-align:center; margin-top: 7px;}
+.date-time span.date{font-size:25.26px; color:#232321; display:block; text-transform:upperacse; line-height:25px;}
+.date-time span.time{font-size:21.08px; color:#232321; display:inline-block; text-transform:upperacse; }
+.date-time span.time img{margin-right:8px;}
+
+
+/*main content*/
+.main-content{background-color:#efefef; padding:10px 0;}
+.news-col{background-color:#FFF;}
+.right-col .row{margin:0;}
+.right-col {padding-left:0;}
+.seminar{padding-right:0;}
+.news-content{padding:3%;}
+.news-content h1{color:#000; font-size:35px; margin:10px 0;}
+.news-content ul{margin:0; padding:0;}
+.news-content ul li{list-style:none; clear:left; border-bottom:1px solid #ddd; padding-bottom:10px; margin-bottom:17px;}
+.news-content h3 a{color:#bd0201;}
+.news-content h3{font-size:25px;}
+.news-content a{outline:none; text-decoration:none;} 
+.news-content a:hover{color:#000;}
+.news-content ul li:last-child{border-bottom:0; margin-bottom:0; padding-bottom:0;}
+
+.grad-student{background-color:#e8332a;}
+.grad-student h2.heading{background-color:#c30303; padding: 10px 20px 0; font-size:26px; text-transform:uppercase; color:#fff; line-height:normal;}
+.grad-info{background-color:#e8332a; padding:0 20px 20px; /* min-height: 348px; */}
+.grad-info ul{margin:0; padding:0 0 0 20px;}
+.grad-info ul li{list-style:none; clear:left; color:#fff; padding-bottom:6px; color:#fff; line-height:normal; padding-top:6px;}
+.grad-info .align-left{float:left; width:64px; height:64px; border-radius:50%; margin-right:15px;}
+.grad-info ul h6{font-size:26px; line-height:normal; margin:5px 0 5px;}
+.banner-img{margin-bottom:10px;}
+.student-col{padding:0;}
+.temptracer{padding-right:0; }
+.temptracer-info{background-color:#cc0202; /* min-height: 410px; */}
+.table thead th, .table-bordered td, .table-bordered th{border:0;  line-height: normal;}
+.table-bordered{border:0;}
+.table-bordered td, .table-bordered th{text-align:center; color:#fff; font-size:13px; padding:15px 10px;  vertical-align: middle;}
+.table-bordered .redbg{background-color:#c30303;}
+.table-bordered th{font-size:20px; color:#eb9a9a; text-transform: uppercase;}
+.table-bordered td strong{font-size:17px;}
+.table-bordered th{padding-top:30px;}
+.grad-info ul li:after{clear:both; line-height:0; content:'.'; display:block; visibility:hidden; height:0;}
+.seminar-content{ position: relative; margin-bottom:10px;}
+.dyn-seminer{position: absolute; bottom:8px; left:0; color:#fff; padding:0 17px;}
+.dyn-seminer h4{font-size:35px; color:#fff; text-transform: uppercase; margin:0; line-height:28px;}
+.dyn-seminer h4 span{font-size:28px; display:block; text-transform:none;}
+.more-info{background:url(../images/more-info.png) no-repeat; width:100%; color:#fff; line-height:normal; padding:5px; background-size:100%; text-transform:uppercase; font-size: 12px;  position: relative; left: -4px;}
+.more-info a{color:#fff; text-decoration:none;}
+.author-info{background-color:#e8332a;}
+.auther-img img{width:234px; border-radius:50%; margin:0 auto;}
+.auther-img{padding:30px; text-align: center;}
+.auther-name{background-color:#bd0201; padding:20px 15px; color:#fff; text-align:center;}
+.auther-name h2{font-size:24px; text-transform:uppercase; margin-bottom:0;}
+.auther-name h2 span{font-size:20px; text-transform:none; display:block;}
+.seminar-content img{width:100%;}
+
+
+
+
+
+
+
+
+
+
+
